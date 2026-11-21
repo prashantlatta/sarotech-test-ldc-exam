@@ -1,0 +1,18 @@
+SAROTECH EFFICIENCY TEST — GITHUB UPLOAD GUIDE
+
+1. Extract this ZIP first.
+2. Open the extracted SAROTECH_Efficiency_Test folder.
+3. Select ALL items INSIDE it, including .github, content, docs, src, and src-tauri.
+4. Upload those items to the ROOT of:
+   prashantlatta/sarotech_efficiency_test
+5. Do NOT upload this ZIP itself.
+6. Do NOT upload the outer project folder as one nested folder.
+7. Commit directly to the main branch.
+8. Open Actions and check "Build Windows x64 installers".
+
+The repository root must show:
+.github | content | docs | src | src-tauri | package.json | index.html | vite.config.ts | README.md | LICENSE
+
+Target: Windows 10 / Windows 11, x64 only.
+
+This is an initial source foundation. It is not yet a fully validated exam simulator.
